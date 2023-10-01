@@ -1,0 +1,138 @@
+body {background-color: #016A70;}
+
+p {font-family: 'Ubuntu', sans-serif;}
+
+h1, h2, h3, h4, h5, h6 {
+                         font-family: 'Roboto', sans-serif;
+                       }
+
+.topitems {color: white;}
+
+.topintro {
+            position: relative;
+          }
+
+.background-image  {
+                      width: 100%;
+                   }
+
+.Onigbindefamdiv  {
+                    position: absolute;
+                    top: 20px;
+                  }
+
+.Toph1  {
+          color: #FFFFDD;
+          font-family: 'Ubuntu', sans-serif;
+          font-size: 80px;
+          font-weight: bold;
+          text-align: center;
+        }
+
+.Onigbindefam {
+                  margin-left: auto;
+                  margin-right: auto;
+                  width: 75%;
+                  display: block;
+              }
+
+.intro-text {
+              text-align: center;
+              font-size: 40px;
+              padding: 15px 0 5px;
+            }
+
+.hreven {background-color: #016A70; border-style: none; height: 4px;}
+
+.hrodd {background-color: #FFFFDD; border-style: none; height: 4px;}
+
+.evendivs {background-color: #FFFFDD;}
+
+.evencolors {color: #016A70;}
+
+.odddivs {background-color: #016A70;}
+
+.oddcolors {color: #FFFFDD;}
+
+
+
+.flex-container {
+                  display: flex;
+                  gap: 5%;
+                  padding: 20px;
+                }
+
+.famimg {
+          max-width: 30%;
+          flex-shrink: 0;
+          margin-left: 10px;
+          margin-right: 10px;
+          height: 50%;
+        }
+
+.faminfo {
+           max-width: 70%;
+         }
+
+.fam-names {
+             font-size: 50px;
+           }
+
+.fam-info {
+            font-size: 25px;
+          }
+
+.familypic {background-color: #A2C579;}
+
+.moreh1 {
+          color: #FFFFDD;
+          font-size: 50px;
+          font-weight: bold;
+          text-align: center;
+          padding-top: 20px;
+        }
+
+.footer {
+          font-size: 10px;
+          color: #FFFFDD;
+          text-align: center;
+          padding: 20px;
+          font-family: 'Ubuntu', sans-serif;
+        }
+
+
+@media (min-width: 300px) and (max-width: 600px) {
+        .Toph1 {font-size: 30px;}
+        .intro-text {font-size: 30px;}
+        .fam-names {font-size: 30px;}
+        .fam-info {font-size: 15px;}
+        .moreh1 {font-size: 30px;}
+
+}
+
+.quizh1 {
+          color: #FFFFDD;
+          text-align: center;
+        }
+
+.btnquiz {
+           margin: 150px auto;
+           display: block;
+         }
+
+.quizPics {
+            display: block;
+            margin: 50px auto;
+            height: 250px;
+          }
+
+.optionsbtn {
+              display: inline-block;
+            }
+
+.optionsdiv {
+              display: flex;
+              gap: 5px;
+              justify-content: center;
+              flex-wrap: wrap;
+            }
